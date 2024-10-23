@@ -25,7 +25,7 @@ public class BoardFactory {
      */
     public BoardFactory(PacManSprites spriteStore) {
         this.sprites = spriteStore;
-    }
+    } // constructeur
 
     /**
      * Creates a new board from a grid of cells and connects it.
