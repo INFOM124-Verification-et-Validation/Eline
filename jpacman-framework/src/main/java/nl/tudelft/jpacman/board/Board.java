@@ -21,7 +21,7 @@ public class Board {
      *            x, row y.
      */
     @SuppressWarnings("PMD.ArrayIsStoredDirectly")
-    Board(Square[][] grid) {
+    Board(Square[][] grid) { // constructeur du board
         assert grid != null;
         this.board = grid;
         assert invariant() : "Initial grid cannot contain null squares";
@@ -31,7 +31,7 @@ public class Board {
      * Whatever happens, the squares on the board can't be null.
      * @return false if any square on the board is null.
      */
-    protected final boolean invariant() {
+    protected final boolean invariant() { // vérifie qu'aucun carré n'est null
         for (Square[] row : board) {
             for (Square square : row) {
                 if (square == null) {
@@ -49,7 +49,7 @@ public class Board {
      */
     public int getWidth() {
         return board.length;
-    }
+    } // nb de colonnes
 
     /**
      * Returns the number of rows.
@@ -58,7 +58,7 @@ public class Board {
      */
     public int getHeight() {
         return board[0].length;
-    }
+    } // nb de lignes
 
     /**
      * Returns the square at the given <code>x,y</code> position.
@@ -72,7 +72,7 @@ public class Board {
      *            The <code>y</code> position (row) of the requested square.
      * @return The square at the given <code>x,y</code> position (never null).
      */
-    public Square squareAt(int x, int y) {
+    public Square squareAt(int x, int y) { // retourne le carré à la position x, y
         assert withinBorders(x, y);
         Square result = board[x][y];
         assert result != null : "Follows from invariant.";
