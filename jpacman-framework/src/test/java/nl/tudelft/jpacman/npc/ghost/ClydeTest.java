@@ -13,7 +13,7 @@ import java.util.Arrays;
 import java.util.List;
 
 class ClydeTest {
-    private List<String> map;
+    /**private List<String> map;
     private GhostFactory clyde;
     private LevelFactory level;
     private GhostMapParser mapParser;
@@ -31,6 +31,6 @@ class ClydeTest {
 
 
 
-    }
+    } **/
 
 }
