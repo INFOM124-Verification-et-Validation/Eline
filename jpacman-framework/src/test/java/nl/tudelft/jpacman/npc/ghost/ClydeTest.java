@@ -99,7 +99,7 @@ class ClydeTest {
         Clyde clyde = Navigation.findUnitInBoard(Clyde.class, level.getBoard());
         Optional<Direction> nextMove = clyde.nextAiMove();
 
-        assertThat(nextMove).isEqualTo(Optional.of(Direction.NORTH));
+        assertThat(nextMove).isEqualTo(Optional.of(Direction.NORTH)); //kk
     }
 
 
