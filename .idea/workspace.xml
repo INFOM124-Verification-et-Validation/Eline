@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="49a1c528-bf3d-4983-bfa1-99e7c35f5107" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/jpacman-framework/src/test/java/nl/tudelft/jpacman/npc/ghost/ClydeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpacman-framework/src/test/java/nl/tudelft/jpacman/npc/ghost/ClydeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpacman-framework/src/test/java/nl/tudelft/jpacman/npc/ghost/InkyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpacman-framework/src/test/java/nl/tudelft/jpacman/npc/ghost/InkyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/build.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/build.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +51,7 @@
     "JUnit.InkyTest.testInkyWhenBlocked.executor": "Run",
     "JUnit.InkyTest.testInkyWhenNoPacMan.executor": "Run",
     "Maven.jpacman-framework [test].executor": "Run",
+    "Maven.jpacman-framework [verify].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "test",
