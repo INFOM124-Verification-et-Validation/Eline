@@ -36,15 +36,15 @@ public class StartupSystemTest {
      * The simplest test that just starts the
      * game and checks it is indeed in progress.
      */
-    @Test
-    @Disabled
-    public void gameIsRunning() {
-        launcher.launch();
-
-        getGame().start();
-
-        assertThat(getGame().isInProgress()).isTrue();
-    }
+//    @Test
+//    @Disabled
+//    public void gameIsRunning() {
+//        launcher.launch();
+//
+//        getGame().start();
+//
+//        assertThat(getGame().isInProgress()).isTrue();
+//    }
 
 
     private Game getGame() {
