@@ -1,4 +1,4 @@
-/*package nl.tudelft.jpacman.npc.ghost;
+package nl.tudelft.jpacman.npc.ghost;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
@@ -137,4 +137,4 @@ public class InkyTest {
 
 
 
-} */
+}
