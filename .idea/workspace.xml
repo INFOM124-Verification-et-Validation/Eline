@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="49a1c528-bf3d-4983-bfa1-99e7c35f5107" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/jpacman-framework/src/test/java/nl/tudelft/jpacman/board/UnitTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpacman-framework/src/test/java/nl/tudelft/jpacman/npc/ghost/InkyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpacman-framework/tp3.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpacman-framework/src/test/java/nl/tudelft/jpacman/integration/StartupSystemTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpacman-framework/src/test/java/nl/tudelft/jpacman/integration/StartupSystemTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpacman-framework/src/test/java/nl/tudelft/jpacman/npc/ghost/GhostMapParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpacman-framework/src/test/java/nl/tudelft/jpacman/npc/ghost/GhostMapParser.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,31 +42,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Launcher.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.InkyTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.InkyTest.testBlinkyFarFromPacman.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.InkyTest.testInkyFollowBlinky.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.InkyTest.testInkyWhenBlocked.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.InkyTest.testInkyWhenNoPacMan.executor&quot;: &quot;Run&quot;,
-    &quot;Maven.jpacman-framework [test].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;Exo4&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.github.copilot.settings.ApplicationConfigurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Launcher.executor": "Run",
+    "JUnit.InkyTest.executor": "Run",
+    "JUnit.InkyTest.testBlinkyFarFromPacman.executor": "Run",
+    "JUnit.InkyTest.testInkyFollowBlinky.executor": "Run",
+    "JUnit.InkyTest.testInkyWhenBlocked.executor": "Run",
+    "JUnit.InkyTest.testInkyWhenNoPacMan.executor": "Run",
+    "Maven.jpacman-framework [test].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "TPCodeSmell",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "com.github.copilot.settings.ApplicationConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="JUnit.InkyTest.testInkyWhenBlocked">
     <configuration name="InkyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="jpacman-framework" />
@@ -184,7 +181,7 @@
       <workItem from="1730448143368" duration="574000" />
       <workItem from="1730622127068" duration="619000" />
       <workItem from="1730623014590" duration="2148000" />
-      <workItem from="1730898286964" duration="520000" />
+      <workItem from="1730898286964" duration="4608000" />
     </task>
     <servers />
   </component>

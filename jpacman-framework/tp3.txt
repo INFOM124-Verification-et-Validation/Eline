@@ -1,0 +1,18 @@
+la classe level est fort longue #bloaters
+switch case dans mapParser
+Blinky possède des //TO DO donc c’est aussi un code smells car on a oublié de les retirer, donc Dispensable
+
+Level est une classe trop grande donc Bloaters
+MapParser est aussi une trop grande classe, il y a bcp de lignes de paramètres et un switchcase
+Blinky possède des //TO DO donc c’est aussi un code smells car on a oublié de les retirer, donc Dispensable
+BoardPanel possède un commentaire " // Renders the board on the given graphics context to the given dimensions" alors OO Abusers
+PacKeyListener possède des méthodes non remplis, elles font rien donc Dispansables (dead code)
+
+prob avec les scores (message chain/middle man) : méthodes/classes qui servent pas à grand chose
+
+Pas grave de pas avoir le bon terme le temps qu'on trouve l'erreur
+
+Existe des outils d'analyse statique de code pour trouver les code smells (jacoco, coverage, sonarqube, checkstyle, findbugs, pmd, etc.)
+SonarQube : outil d'analyse statique de code open source. On peut lié l'outil au repot git et il va analyser le code à chaque push
+evoluation codebase en fonction des push
+Ex : pas plus de 3% de duplication de code
